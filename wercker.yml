@@ -3,3 +3,7 @@ box: node
 build:
   steps:
     - npm-install
+    - script:
+        name: wintersmith
+        code: |
+          node_modules/wintersmith/bin/wintersmith build
