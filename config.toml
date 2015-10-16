@@ -1,0 +1,25 @@
+baseurl = "http://www.doyali.com/"
+title = "Gilgamesh' Site"
+DateForm = "2 Jan 2006"
+canonifyurls = true
+contentdir = "content"
+languageCode = "en-US"
+layoutdir = "layouts"
+publishdir = "public"
+pygmentsuseclasses = true
+
+[permalinks]
+fixed = ":title/"
+posts = "posts/:slug/"
+
+[params]
+Author = "Gilgamesh Nootebos"
+DateForm = "2 Jan 2006" # required
+Email = "gilgamez@gmail.com"
+Facebook = "//facebook.com/username"
+#GATracker = "<Google-Analytics-ID>"
+GitHub = "//github.com/gilgamez"
+Lang = "en" # <body lang="en">
+LinkedIn = "//linkedin.com/in/gilgamesh"
+Twitter = "//twitter.com/gilgamez"
+# WebfontsFile = "css/mywebfontsfile.css" # relative to static/ directory, defaults to empty string
