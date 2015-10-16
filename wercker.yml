@@ -1,9 +1,15 @@
-box: node
+box: debian
 
 build:
   steps:
-    - npm-install
-    - script:
-        name: wintersmith
-        code: |
-          node_modules/wintersmith/bin/wintersmith build
+    - arjen/hugo-build:
+        version: 0.14
+        theme: cocoa
+        flags: --buildDrafts=true
+
+#deploy:
+#  steps:
+#    - lukevivier/gh-pages@0.2.1:
+#        token: $GIT_TOKEN
+#        domain: www.doyali.com
+#        basedir: public
