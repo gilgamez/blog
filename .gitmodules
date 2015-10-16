@@ -1,3 +1,6 @@
 [submodule "public"]
 	path = public
 	url = https://gilgamez@github.com/doyali/doyali.github.io.git
+[submodule "themes/cocoa"]
+	path = themes/cocoa
+	url = https://gilgamez@github.com/gilgamez/cocoa-hugo-theme.git
