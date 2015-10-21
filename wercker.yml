@@ -1,14 +1,28 @@
-box: debian
 
 build:
+  box: samueldebruyn/hugo-build
   steps:
-    - arjen/hugo-build:
-        version: 0.14
-        theme: cocoa
-        flags: --buildDrafts=true
+    - script:
+        name: build with hugo
+        code: hugo -t cocoa
 
-#deploy:
-#  steps:
+deploy:
+  box: samueldebruyn/debian-git
+  steps:
+    - script:
+        name: initialize git submodules
+        code: git submodule update --init --recursive
+    - script:
+        name: rebuild public
+        code: |
+          find public \
+            ! -name .git \
+            ! -name CNAME \
+            ! -name LICENSE.md \
+            ! -name README.md \
+            -mindepth 1 -maxdepth 1 | xargs rm -rvf
+          cp -vr staging/* public/
+          ls public/
 #    - lukevivier/gh-pages@0.2.1:
 #        token: $GIT_TOKEN
 #        domain: www.doyali.com
