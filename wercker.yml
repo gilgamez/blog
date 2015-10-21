@@ -23,7 +23,7 @@ deploy:
             -mindepth 1 -maxdepth 1 | xargs rm -rvf
           cp -vr staging/* public/
           ls public/
-#    - lukevivier/gh-pages@0.2.1:
-#        token: $GIT_TOKEN
-#        domain: www.doyali.com
-#        basedir: public
+    - lukevivier/gh-pages@0.2.1:
+        token: $GIT_TOKEN
+        domain: www.doyali.com
+        basedir: public
