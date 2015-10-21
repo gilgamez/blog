@@ -9,9 +9,13 @@ build:
 deploy:
   box: samueldebruyn/debian-git
   steps:
+#    - script:
+#        name: initialize git submodules
+#        code: git submodule update --init --recursive
     - script:
-        name: initialize git submodules
-        code: git submodule update --init --recursive
+        name: initialize public
+        code: |
+          mkdir -p public
     - script:
         name: rebuild public
         code: |
@@ -23,7 +27,7 @@ deploy:
             -mindepth 1 -maxdepth 1 | xargs rm -rvf
           cp -vr staging/* public/
           ls public/
-    - lukevivier/gh-pages@0.2.1:
-        token: $GIT_TOKEN
-        domain: www.doyali.com
-        basedir: public
+#    - lukevivier/gh-pages@0.2.1:
+#        token: $GIT_TOKEN
+#        domain: www.doyali.com
+#        basedir: public
