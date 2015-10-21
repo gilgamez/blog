@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://www.doyali.com/</loc>
+    <lastmod>2015-10-15T07:34:48+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.doyali.com/about/</loc>
+    <lastmod>2015-10-15T07:34:48+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.doyali.com/blog/first-post/</loc>
+    <lastmod>2015-10-15T07:24:27+02:00</lastmod>
+  </url>
+  
+</urlset>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gilgamesh&#39; Site</title>
+    <link>http://www.doyali.com/</link>
+    <description>Recent content on Gilgamesh&#39; Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 15 Oct 2015 07:34:48 +0200</lastBuildDate>
+    <atom:link href="http://www.doyali.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About</title>
+      <link>http://www.doyali.com/about/</link>
+      <pubDate>Thu, 15 Oct 2015 07:34:48 +0200</pubDate>
+      
+      <guid>http://www.doyali.com/about/</guid>
+      <description>
+
+&lt;h1 id=&#34;about:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;About&lt;/h1&gt;
+
+&lt;p&gt;I am a allround software developer&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>first post</title>
+      <link>http://www.doyali.com/blog/first-post/</link>
+      <pubDate>Thu, 15 Oct 2015 07:24:27 +0200</pubDate>
+      
+      <guid>http://www.doyali.com/blog/first-post/</guid>
+      <description>
+
+&lt;h1 id=&#34;this-is-my-first-post:f3b70d76da56e15d82042b9ef176d71f&#34;&gt;This is my first post&lt;/h1&gt;
+
+&lt;p&gt;Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Curabitur blandit tempus porttitor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor fringilla. Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo.&lt;/p&gt;
+
+&lt;p&gt;Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Vestibulum id ligula porta felis euismod semper.&lt;/p&gt;
+
+&lt;p&gt;Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras justo odio, dapibus ac facilisis in, egestas eget quam.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
